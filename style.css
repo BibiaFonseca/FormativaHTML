@@ -1,0 +1,99 @@
+body{
+    background-image: url(video/hollow\ knight\ video.gif);
+    background-color: black;
+    background-repeat:repeat-y;
+    background-size:contain;
+    padding: 0px 100px 0px 100px;
+    
+}
+
+h1, h2{
+font-family: trajan-pro-3, serif;
+font-style: normal;
+font-weight: 200;
+text-align: center;
+color: aliceblue;
+}
+
+.titulo{
+   display: flex;
+   justify-content: center;
+}
+
+.subtitulos{
+    text-align: center;
+    color:aliceblue;
+    margin-bottom: 5px;
+    border-bottom: 15px solid aliceblue;
+    margin-top: 50px;
+}
+
+.fotos{
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+    border: 2px solid black;
+}
+
+.imagens{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.lateral{
+    display: flex;
+}
+table{
+    display:flex;
+   justify-content: center;
+   align-items:center;
+   padding: 10px 10px 10px 10px;
+}
+
+.gal{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 200px;
+  }
+
+  .video{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .texto{
+    display:list-item;
+    justify-content: center;
+    margin-left: 210px;
+  }
+
+  .logos{
+    display:contents;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+
+}
+
+.contato{
+    text-align: center;
+    line-height: 2;
+}
+
+.menu{
+    text-align: center;
+    
+}
+
+.menu a{
+    font-size: 5;
+   
+}
+  
